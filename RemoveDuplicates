@@ -18,7 +18,7 @@ public class Test {
     }
   //Using dynamic arrayList
     public static int[] removeDuplicates(int[] arr){
-        ArrayList <Integer> uniqueList = new ArrayList<>();
+        ArrayList <Integer> set = new ArrayList<>();
 
         for (int num : arr){
             set.add(num);
